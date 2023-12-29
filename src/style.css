@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: rgb(6, 4, 8);
+    display: flex;
+   
+
+   
+}
+
+
+nav {
+    background-color: rgb(33, 50, 65);
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none ;
+    position: relative;
+    height: 100%;
+}
+
+nav ul li figure{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+ nav ul li figure img{
+    width: 50px;
+    border-radius: 50% ;
+    border: 5px solid #eee;
+}
+
+nav ul li figure figcaption {
+    font-size: 20px ;
+    font-weight: bold;
+    color: rgb(163, 236, 224);
+}
+
+
+
+nav ul {
+    list-style: none ;
+    position: relative;
+    height: 100%;
+}
+
+nav ul li  a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #eee;
+    transition: .5s;
+}
+
+nav ul li  a:hover , .active{
+    background-color: #123;
+}
+
+nav ul .log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul .log-out a {
+    background-color: rgb(168, 25, 25);
+}
+
+nav ul li i {
+    font-size: 40px;
+}
+
+
+
+nav:hover{
+    width: 260px;
+}
+
+
+/* ------------------ style of the contebt------------- */
+main {
+    width: 100%;
+    margin: 10px;
+}
+main .content {
+    width: 100%;
+    
+}
+
+main .content .title {
+    background-color:rgb(69, 59, 92);
+   padding: 10px ;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin: 10px 0 ;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+main .content .data-info {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px ;
+}
+
+
+
+main .content .data-info .box {
+    height: 150px;
+    background-color: #123;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+main .content .data-info .box:hover{
+    background-color: #847baa;
+}
+
+main .content .data-info .box i {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main .content .data-info .box .data{
+    align-items: center;
+
+}
+
+main .content .data-info .box .data span {
+    font-size: 30px ;
+    font-weight: 400  ;
+}
+
+
+/* style of table  */
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+    height: 100%;
+}
+
+td,th {
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+    padding: 15px;
+}
+th{
+    background-color:rgb(9, 9, 226);
+}
+
+td:hover{
+    background-color: #123;
+}
+
+.price{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(15, 17, 39);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+
+    
+}
+
+
+.coder {
+    color: rgb(175, 175, 18);
+}
+
+
+
