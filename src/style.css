@@ -18,11 +18,10 @@ body{
 nav {
     background-color: rgb(33, 50, 65);
     width: 60px;
-    height: 100%;
-    height: px;
     padding: 20px;
     overflow: hidden;
     transition: .5s;
+    flex-grow: 1;
 }
 
 
@@ -199,5 +198,6 @@ footer{
 .coder {
     color: rgb(175, 175, 18);
 }
+
 
 
