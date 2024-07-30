@@ -18,6 +18,7 @@ body{
 nav {
     background-color: rgb(33, 50, 65);
     width: 60px;
+    height: 100%;
     height: px;
     padding: 20px;
     overflow: hidden;
@@ -198,6 +199,5 @@ footer{
 .coder {
     color: rgb(175, 175, 18);
 }
-
 
 
