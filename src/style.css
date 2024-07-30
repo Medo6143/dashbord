@@ -18,18 +18,13 @@ body{
 nav {
     background-color: rgb(33, 50, 65);
     width: 60px;
-    height: 100vh;
+    height: px;
     padding: 20px;
     overflow: hidden;
     transition: .5s;
-    flex-grow: 1;
 }
 
-nav ul {
-    list-style: none ;
-    position: relative;
-    height: 100%;
-}
+
 
 nav ul li figure{
     display: flex;
@@ -194,6 +189,7 @@ footer{
     text-align: center;
     padding: 15px;
     border-radius: 5px;
+   
 
     
 }
